@@ -1,0 +1,95 @@
+USAGE: ./InfiniFilter-af.sh input.mp4 wav 0 50 atempo=0.9,asetrate=45k
+ ./InfiniFilter-af.sh input.wav  s16le 0 20 asetrate=44k,asetrate=8k,atempo=0.9,asetrate=44k 44000 pcm_s16le
+ ./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3  s16le 0 10 asetrate=44k,asetrate=22k,atempo=0.9,asetrate=44k 44000 pcm_s16le
+ ./InfiniFilter-af.sh input.wav s16le 0 10 asetrate=44k,asetrate=8k,atempo=0.9,asetrate=44k,atempo=1.1 44000 pcm_s16le
+ ./InfiniFilter-af.sh input.wav s16le 0 5 asetrate=44k,asetrate=8k,atempo=0.9,asetrate=44k,atempo=1.1 44000 pcm_s16le
+
+
+
+IM CAME
+ ./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3 wav 0 20 asetrate=44k,asetrate=45k,atempo=0.9,asetrate=44k,atempo=1.1
+ ./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3 wav 0 7 asetrate=44k,asetrate=55k,atempo=0.9,asetrate=44k
+ ./InfiniFilter-af.sh /home/pandela/Music/closer.mp3 s16le pcm_s16le 7 asetrate=44k,asetrate=176k,atempo=0.9,asetrate=44k,atempo=1.1 44000
+ ./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3 wav 0 14 asetrate=44k,asetrate=176k,atempo=0.9,asetrate=44k,atempo=1.1
+ ./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3 wav 0 5 asetrate=44k,asetrate=276k,atempo=0.9,asetrate=44k,atempo=1.1
+
+
+OOF
+ ./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3 wav 0 15 asetrate=44k,asetrate=62k,atempo=0.9,asetrate=44k,atempo=1.1
+ ./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 wav 0 15 asetrate=16k,asetrate=8k,atempo=0.9,asetrate=16k,atempo=1.1 16000
+
+
+CRISP
+ ./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 wav 0 15 asetrate=44k,asetrate=62k,atempo=0.9,asetrate=44k,atempo=1.1 44000
+ ./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 wav 0 15 asetrate=88k,asetrate=102k,atempo=0.9,asetrate=88k,atempo=1.1 88000
+ ./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 wav 0 5 asetrate=44k,asetrate=62k,atempo=0.9,asetrate=44k 44000
+ ./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 wav 0 10 asetrate=44k,asetrate=62k,atempo=0.5,asetrate=44k,atempo=2 44000
+ ./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 wav 0 15 asetrate=88k,asetrate=142k,atempo=0.9,asetrate=88k,atempo=1.1 88000
+
+
+OVERKILL
+ ./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 wav 0 15 asetrate=88k,asetrate=542k,atempo=0.9,asetrate=88k,atempo=1.1 88000
+ ./InfiniFilter-af.sh '/home/pandela/Music/Sauce/somanywonders.m4a'   wav 0 15 asetrate=88k,asetrate=542k,atempo=0.5,asetrate=88k,atempo=2 88000
+
+
+MUSIC TO MY FUCKING EARS (repeat)
+ ./InfiniFilter-af.sh file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav s16le pcm_s16le 5 asetrate=33k,asetrate=542k,atempo=0.9,asetrate=33k,atempo=1.1 33000
+
+
+UNSTABLE
+ ./InfiniFilter-af.sh  file:///home/pandela/Music/closer.mp3  wav 0 10 asetrate=33k,asetrate=542k,atempo=0.9,asetrate=33k,atempo=1.0 33000
+ ./InfiniFilter-af.sh  file:///home/pandela/Music/closer.mp3  wav 0 3 asetrate=16.5K,asetrate=271k,atempo=0.9,asetrate=16.5K,atempo=1.0 16500
+
+
+SUTTLE
+ ./InfiniFilter-af.sh /home/pandela/Music/closer.mp3 s16le pcm_s16le 3 asetrate=66k,asetrate=104800,atempo=0.9,asetrate=66k,atempo=1.1 66000
+
+STABLE & CRISP (repeats)
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav wav 0 10 asetrate=66k,asetrate=104800,atempo=0.9,asetrate=66k,atempo=1.1 66000
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav wav 0 40 asetrate=66k,asetrate=104800,atempo=0.99,asetrate=66k,atempo=1.01 66000
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav wav 0 40 asetrate=33k,asetrate=66k,asetrate=104800,atempo=0.99,asetrate=66k,atempo=1.01,asetrate=33k 33000 
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav wav 0 40 asetrate=33k,asetrate=66k,asetrate=104800,atempo=0.99,asetrate=542k,asetrate=66k,atempo=1.01,asetrate=33k 33000
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav alaw 0 60 asetrate=66k,asetrate=104800,atempo=0.99,asetrate=66k,atempo=1.01 66000 pcm_alaw
+
+
+STUTTER SYNDROME
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav wav 0 40 asetrate=66k,asetrate=104800,atempo=0.9,asetrate=66k,atempo=1.1 66000
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav u32le 0 40 asetrate=66k,asetrate=104800,atempo=0.99,asetrate=66k,atempo=1.01 66000 pcm_u32le
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav u32le 0 60 asetrate=66k,asetrate=104800,atempo=0.99,asetrate=66k,atempo=1.01 66000 pcm_u32le
+
+
+
+CRUSHED
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav u8 0 60 asetrate=66k,asetrate=104800,atempo=0.99,asetrate=66k,atempo=1.01 66000 pcm_u8
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav u8 0 10 asetrate=66k,asetrate=104800,atempo=0.9,asetrate=66k,atempo=1.1 66000 pcm_u8
+
+
+
+SLUGGISH
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav alaw 0 10 asetrate=49.5k,asetrate=81300,atempo=0.9,asetrate=49.5k,atempo=1.0 49500 pcm_alaw
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav alaw 0 10 asetrate=49.5k,asetrate=81300,atempo=0.9,asetrate=49.5k,atempo=1.1 49500 pcm_alaw
+ ./InfiniFilter-af.sh  file:///home/pandela/stuffs/BlackMothSuperRainbowTheDarkForestJoggers.wav alaw 0 10 asetrate=29.5k,asetrate=81300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500 pcm_alaw
+
+ ./InfiniFilter-af.sh   file:///home/pandela/stuffs/BMSR-fieldsarebreathing.wav  u8 0 25 asetrate=29.5k,asetrate=41300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500 pcm_alaw
+ 
+WAO
+ ./InfiniFilter-af.sh   file:///home/pandela/stuffs/BMSR-fieldsarebreathing.wav  s8 0 10 asetrate=29.5k,asetrate=81300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500 pcm_s8
+ ./InfiniFilter-af.sh   file:///home/pandela/stuffs/BMSR-fieldsarebreathing.wav  u8 0 5 asetrate=29.5k,asetrate=81300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500 pcm_alaw
+ ./InfiniFilter-af.sh   file:///home/pandela/stuffs/BMSR-fieldsarebreathing.wav  u8 0 25 asetrate=29.5k,asetrate=81300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500 pcm_alaw
+
+LOLWUT
+ ./InfiniFilter-af.sh   file:///home/pandela/stuffs/BMSR-fieldsarebreathing.wav  u8 0 25 asetrate=29.5k,asetrate=21300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500 pcm_alaw
+
+
+NEWEST
+./InfiniFilter-af.sh file:///home/pandela/stuffs/BMSR-fieldsarebreathing.wav alaw 00:00:25 10 5 atempo=0.9,asetrate=45k 45000
+./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3 alaw 00:01:25.5 3 25 atempo=0.9,asetrate=45k 45000
+./InfiniFilter-af.sh file:///home/pandela/Music/closer.mp3 alaw 00:01:25.5 5 50 atempo=0.9,asetrate=88k,atempo=1.1 88000
+./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 u8 00:01:25.5 25 10 asetrate=29.5k,asetrate=81300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500
+
+
+./InfiniFilter-af.sh file:///home/pandela/Music/MyNameIsmud.mp3 alaw 00:01:25.5 25 10 asetrate=29.5k,asetrate=81300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500
+
+New Shit
+
+./InfiniFilter-af.sh file:///home/pandela/stuffs/BMSR-fieldsarebreathing.wav alaw 00:01:05 15 25 asetrate=29.5k,asetrate=21300,atempo=0.9,asetrate=29.5k,atempo=1.1 29500
