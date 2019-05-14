@@ -1,4 +1,4 @@
-#FFMPREG Audio Filter Stacking Script <3
+#ffmpeg Audio Filter Stacking Script <3
 if [[ ${1} =~ ("-h"|"-help") ]]; then
 clear
 tput setaf 2;  echo "
@@ -21,7 +21,7 @@ echo -e "$file\n\n"$(printf "$newline")"" > $2
 else
 
    rm *.$2
-  FFMPREG -ss $3 -i $1 -c:a pcm_$2 -ar $7 -f $2 -ac 2 -t $4 -y out.$2
+  ffmpeg -ss $3 -i $1 -c:a pcm_$2 -ar $7 -f $2 -ac 2 -t $4 -y out.$2
  wait
 FILTERS="$6"
 OUT=""
@@ -32,6 +32,6 @@ OUT=""
    newstring="$OUT"
   newfilt=${newstring#","}
  newfilt=${newfilt%","}
- FFMPREG -ar $7  -c:a pcm_$2 -f $2 -ac 2 -i out.$2 -c:a pcm_$2 -ar $7 -f $2 -ac 2 -af $newfilt -y final.$2
-FFPLEY -ar $7  -acodec  pcm_$2 -f $2 -ac 2 -i final.$2 -af volume=0.2
+ ffmpeg -ar $7  -c:a pcm_$2 -f $2 -ac 2 -i out.$2 -c:a pcm_$2 -ar $7 -f $2 -ac 2 -af $newfilt -y final.$2
+ffplay -ar $7  -acodec  pcm_$2 -f $2 -ac 2 -i final.$2 -af volume=0.2
 echo $3 ; fi fi fi fi
