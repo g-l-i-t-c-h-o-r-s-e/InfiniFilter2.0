@@ -1,4 +1,4 @@
-#FFMPREG Video Filter Stacking Script <3
+#ffmpeg Video Filter Stacking Script <3
 
 if [[ ${1} =~ ("-h"|"-help") ]]; then
  clear
@@ -24,7 +24,7 @@ else
 
 mkdir frames
  mkdir ./frames/result
-  FFMPREG -i $1 -pix_fmt $3 -s $4 -frames 30 -y ./frames/frame%d.$2
+  ffmpeg -i $1 -pix_fmt $3 -s $4 -frames 30 -y ./frames/frame%d.$2
  wait
 FILTERS="$6"
 OUT=""
@@ -40,10 +40,10 @@ OUT=""
 
 cd ./frames
  for p in *.$2; do 
- FFMPREG -i $p  -pix_fmt $3 -vf $newfilt -y ./result/"${p%}" ; done
+ ffmpeg -i $p  -pix_fmt $3 -vf $newfilt -y ./result/"${p%}" ; done
 
 cd result
- FFPLEY frame%d.$2 -loop 9001
+ ffplay frame%d.$2 -loop 9001
  wait
  rm *.$2
 rm ../*.$2
